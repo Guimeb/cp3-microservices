@@ -9,11 +9,9 @@ public class PacienteResponse {
     private String email;
     private String telefone;
 
-    // Construtor padrão
     public PacienteResponse() {
     }
 
-    // Construtor completo
     public PacienteResponse(Long id, String nome, String endereco, String bairro, String email, String telefone) {
         this.id = id;
         this.nome = nome;
